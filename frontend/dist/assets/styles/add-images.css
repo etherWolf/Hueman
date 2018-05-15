@@ -1,0 +1,19 @@
+td {
+    padding-bottom: 10px;
+}
+
+#holder {
+    text-align: center;
+    display: table;
+    border: 2px dashed grey;
+    min-width: 600px;
+    min-height: 200px;
+    max-width: 600px;
+    max-height: 200px;
+    transition: border 0.3s, color 0.3s;
+}
+
+#holderofholder {
+    padding-top: 10em;
+    padding-bottom: 1.1em;
+}

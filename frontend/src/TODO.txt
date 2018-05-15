@@ -1,0 +1,8 @@
+Async/await sleep for component to load
+
+Release temporary object URL
+
+New categories and tags (more than one) may be created in a single
+instance of add images, so those need to be synced with the server too.
+
+Confirm leaving add images

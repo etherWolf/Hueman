@@ -1,0 +1,13 @@
+click==6.7
+colormath==2.1.1
+decorator==4.1.2
+Flask==0.12.2
+Flask-Cors==3.0.3
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+networkx==2.0
+numpy==1.13.3
+six==1.11.0
+tinydb==3.7.0
+Werkzeug==0.12.2

@@ -1,0 +1,39 @@
+td {
+    padding-bottom: 10px;
+}
+
+.ui.dropdown {
+    min-width: 308px;
+    max-width: 308px;
+}
+
+.color-input {
+    max-width: 157px;
+    min-width: 157px;
+    margin-right: -25px;
+}
+
+#main-header {
+    font-size: 4.5em;
+    padding-top: 1.6em;
+    padding-bottom: 1.1em;
+}
+
+#holder {
+    display: table;
+    border: 2px dashed grey;
+    min-width: 140px;
+    min-height: 140px;
+    max-width: 140px;
+    max-height: 140px;
+    transition: border 0.3s, color 0.3s;
+}
+
+#label-color-palette {
+	margin-top: 10px;
+    margin-right: 10px;
+}
+
+#dropdown-category {
+	min-width: 308px;
+}

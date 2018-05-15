@@ -1,0 +1,18 @@
+@import "common";
+
+/* ===== RESETS AND CO. ===== */
+*, *:before, *:after { //box sizing means border-box. spread the message
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ===== GENERAL ===== */
+body {
+  background-color: $dark-color;
+}
+
+*::selection {
+  color: $dark-color;
+  background: $light-color;
+}

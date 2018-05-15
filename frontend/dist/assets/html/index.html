@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Hueman - A Color-Aware Image Manager
+  </title>
+  <link href="../semantic/dist/semantic.css" rel="stylesheet" type="text/css"/>
+  <link href="../css/base.css" rel="stylesheet" type="text/css"/>
+  <link href="../css/index.css" rel="stylesheet" type="text/css"/>
+  <script src="../scripts/jquery.min.js" type="text/javascript">
+  </script>
+  <script src="../semantic/dist/semantic.min.js" type="text/javascript">
+  </script>
+  <script src="../../../src/assets/scripts/jscolor.min.js" type="text/javascript">
+  </script>
+  <script src="../scripts/vibrant.js" type="text/javascript">
+  </script>
+  <script src="../scripts" type="text/javascript">
+  </script>
+</head>
+<body>
+<div class="pusher">
+  <!-- NAVBAR -->
+  <div class="ui container">
+    <div id="navbar" class="ui secondary inverted pointing top fixed menu">
+      <a class="active item">
+        Home
+      </a>
+      <a class="item">
+        Browse
+      </a>
+      <div class="right item">
+        <a class="ui inverted button">
+          Add images
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- END NAVBAR -->
+  <div class="ui center aligned container">
+    <div class="ui container">
+      <div id="main-header" class="column">
+        <div class="ui inverted header">
+          HUEMAN
+          <div class="ui sub header">
+            A Color-Aware Image Manager
+          </div>
+        </div>
+      </div>
+    </div>
+    <form class="ui inverted form">
+      <!-- <div class="ui three columns"> -->
+      <div class="ui container">
+        <center>
+          <table>
+            <tr>
+              <td>
+                <div class="ui field">
+                  <label>
+                    Category
+                  </label>
+                </div>
+              </td>
+              <td colspan="3">
+                <div id="dropdown-category" class="ui fluid selection search dropdown">
+                  <input name="country" type="hidden">
+                  <i class="dropdown icon">
+                  </i>
+                  <div class="default text">
+                    All
+                  </div>
+                  <div class="menu">
+                    <div class="item">
+                      All
+                    </div>
+                    <div class="item">
+                      Cars
+                    </div>
+                    <div class="item">
+                      Bikes
+                    </div>
+                    <div class="item">
+                      Trucks
+                    </div>
+                    <div class="item">
+                      Airplanes
+                    </div>
+                  </div>
+                  </input>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="ui field">
+                  <label>
+                    Tags
+                  </label>
+                </div>
+              </td>
+              <td colspan="3">
+                <div class="ui fluid multiple selection search dropdown">
+                  <input name="tags" type="hidden">
+                  <i class="dropdown icon">
+                  </i>
+                  <div class="default text">
+                    None
+                  </div>
+                  <div class="menu">
+                    <div class="item">
+                      Big
+                    </div>
+                    <div class="item">
+                      Small
+                    </div>
+                    <div class="item">
+                      White
+                    </div>
+                    <div class="item">
+                      Black
+                    </div>
+                    <div class="item">
+                      Blue
+                    </div>
+                    <div class="item">
+                      Jet
+                    </div>
+                    <div class="item">
+                      Luxury
+                    </div>
+                    <div class="item">
+                      Golden
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="3" valign="top">
+                <div class="ui field">
+                  <label id="label-color-palette">
+                    Color palette
+                  </label>
+                </div>
+              </td>
+              <td>
+                <div class="color-input ui icon input">
+                  <input id="input-color-primary" class="jscolor {required:false, hash:true}"
+                         placeholder="Primary color" type="text"/>
+                  <i class="theme icon">
+                  </i>
+                </div>
+              </td>
+              <td rowspan="3">
+                <div id="holder" class="ui center aligned raised compact inverted segment">
+                  <p>
+                  <p>
+                    <b>
+                      <label style="color: #818181;">Drop image here...<br><br>or</label>
+                    </b>
+                  </p>
+                  </p>
+                  <button id="button-upload-image" class="ui small basic inverted icon button" type="button">
+                    <i class="upload icon">
+                    </i>
+                  </button>
+                  <input id="file-input" type="file" name="name" style="display: none;" accept="image/*"/>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="color-input ui icon input">
+                  <input id="input-color-secondary" class="jscolor {required:false, hash:true}"
+                         placeholder="Secondary color" type="text"/>
+                  <i class="theme icon">
+                  </i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="color-input ui icon input">
+                  <input id="input-color-tertiary" class="jscolor {required:false, hash:true}"
+                         placeholder="Tertiary color" type="text"/>
+                  <i class="theme icon">
+                  </i>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </center>
+      </div>
+      <!-- </div> -->
+      <br>
+      <br>
+      <button class="ui primary inverted button">
+        <i class="search icon">
+        </i>
+        Search
+      </button>
+      </br>
+      </br>
+    </form>
+  </div>
+</div>
+</body>
+</html>
